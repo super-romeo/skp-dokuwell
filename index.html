@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Program SKP dla stacji kontroli pojazdów: badania techniczne, rejestr badań, dokumenty po badaniu i przekazywanie danych do CEPiK.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -81,38 +85,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">SKP Online</a></div>
-  <nav class="top"><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">SKP Online</a>
+  <nav><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Program SKP — badania techniczne, rejestr badań i CEPiK dla stacji kontroli pojazdów</h1>
-    <p class="sub">Program SKP dla niezależnej stacji kontroli pojazdów: diagnosta wprowadza badanie techniczne przy stanowisku, program prowadzi rejestr badań, przygotowuje dokumenty i przekazuje dane do CEPiK, a właściciel widzi zestawienia za dzień i miesiąc.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
-    <p class="cta-note">Wczesny dostęp · Na tej stronie nie pobieramy jeszcze płatności</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Dla niezależnej stacji</p>
+      <h1 class="rise" style="--i:1" data-len="long">Program SKP&nbsp;<span class="soft">— badania techniczne, rejestr badań i CEPiK dla stacji kontroli pojazdów</span></h1>
+      <p class="rise" style="--i:2">Program SKP dla niezależnej stacji kontroli pojazdów: diagnosta wprowadza badanie techniczne przy stanowisku, program prowadzi rejestr badań, przygotowuje dokumenty i przekazuje dane do CEPiK, a właściciel widzi zestawienia za dzień i miesiąc.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
+      <p class="meta rise" style="--i:4">Wczesny dostęp · Na tej stronie nie pobieramy jeszcze płatności</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" font-weight="600" fill="#0a1524">Badanie</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="294" font-size="32" fill="#0a1524">CEPiK</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#12397a" /><rect x="200" y="360" width="300" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="440" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="450" width="220" height="24" rx="12" fill="#b9c3d2" /><rect x="130" y="530" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="540" width="260" height="24" rx="12" fill="#dde2ea" /><rect x="700" y="260" width="370" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="330" font-size="34" font-weight="600" fill="#0a1524">Zestawienia</text><rect x="740" y="470" width="54" height="150" rx="8" fill="#ffffff" /><rect x="820" y="390" width="54" height="230" rx="8" fill="#12397a" /><rect x="900" y="430" width="54" height="190" rx="8" fill="#ffffff" /><rect x="980" y="500" width="54" height="120" rx="8" fill="#b9c3d2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Dla</dt><dd>Niezależnej stacji kontroli</dd></div>
+      <div><dt>Badanie</dt><dd>Badanie techniczne przy stanowisku</dd></div>
+      <div><dt>Jak</dt><dd>Prowadzi rejestr badań</dd></div>
+      <div><dt>Dostęp</dt><dd>Wczesny dostęp</dd></div>
+    </dl>
+  </section>
 
   <section id="co" data-view="features_view">
-    <h2>Co dostajesz</h2>
-    <div class="grid">
-      <div class="card"><b>Badanie techniczne</b><span>Dane pojazdu, wynik badania i usterki wprowadzane przy stanowisku.</span><br><a class="btn" href="price.html" data-ev="feature_badanie">Tego potrzebuję</a></div>
-      <div class="card"><b>CEPiK</b><span>Dane badania przekazywane do Centralnej Ewidencji Pojazdów.</span><br><a class="btn" href="price.html" data-ev="feature_cepik">Tego potrzebuję</a></div>
-      <div class="card"><b>Rejestr badań</b><span>Rejestr wszystkich badań stacji z wyszukiwaniem.</span><br><a class="btn" href="price.html" data-ev="feature_rejestr">Tego potrzebuję</a></div>
-      <div class="card"><b>Zestawienia</b><span>Zestawienia badań i opłat za dzień, miesiąc i rok.</span><br><a class="btn" href="price.html" data-ev="feature_raporty">Tego potrzebuję</a></div>
+    <div class="stack"><h2>Co dostajesz</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">Badanie techniczne</text><rect x="120" y="200" width="44" height="44" rx="8" fill="#12397a" /><polyline points="130,222 140,234 156,210" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="190" y="210" width="380" height="24" rx="12" fill="#dde2ea" /><rect x="120" y="280" width="44" height="44" rx="8" fill="#12397a" /><polyline points="130,302 140,314 156,290" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="190" y="290" width="280" height="24" rx="12" fill="#b9c3d2" /><rect x="120" y="360" width="44" height="44" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="190" y="370" width="330" height="24" rx="12" fill="#dde2ea" /><text x="120" y="470" font-size="30" fill="#566174">przy stanowisku</text></svg></div>
+        <h3>Badanie techniczne</h3><p>Dane pojazdu, wynik badania i usterki wprowadzane przy stanowisku.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_badanie">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="110" width="270" height="380" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="84" y="180" font-size="30" font-weight="600" fill="#0a1524">Dane</text><rect x="84" y="220" width="200" height="22" rx="8" fill="#dde2ea" /><rect x="84" y="270" width="150" height="22" rx="8" fill="#b9c3d2" /><rect x="84" y="320" width="180" height="22" rx="8" fill="#dde2ea" /><path d="M350 300 L430 300" fill="none" stroke="#12397a" stroke-width="6" /><polygon points="430,286 462,300 430,314" fill="#12397a" /><rect x="480" y="110" width="270" height="380" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="504" y="180" font-size="30" font-weight="600" fill="#0a1524">CEPiK</text><rect x="504" y="230" width="190" height="22" rx="8" fill="#dfe8f7" /><rect x="504" y="280" width="140" height="22" rx="8" fill="#dde2ea" /><rect x="504" y="360" width="160" height="48" rx="16" fill="#12397a" /></svg></div>
+        <h3>CEPiK</h3><p>Dane badania przekazywane do Centralnej Ewidencji Pojazdów.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_cepik">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">Rejestr badań</text><rect x="120" y="200" width="420" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="250" width="340" height="22" rx="8" fill="#b9c3d2" /><rect x="120" y="300" width="390" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="350" width="250" height="22" rx="8" fill="#dde2ea" /><circle cx="560" cy="430" r="64" fill="#dfe8f7" /><polyline points="524,430 548,456 600,396" fill="none" stroke="#12397a" stroke-width="8" /></svg></div>
+        <h3>Rejestr badań</h3><p>Rejestr wszystkich badań stacji z wyszukiwaniem.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_rejestr">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">Zestawienia</text><line x1="140" y1="470" x2="660" y2="470" stroke="#dde2ea" stroke-width="4" /><rect x="180" y="320" width="70" height="150" rx="8" fill="#dfe8f7" /><rect x="300" y="230" width="70" height="240" rx="8" fill="#12397a" /><rect x="420" y="280" width="70" height="190" rx="8" fill="#b9c3d2" /><rect x="540" y="360" width="70" height="110" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Zestawienia</h3><p>Zestawienia badań i opłat za dzień, miesiąc i rok.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_raporty">Tego potrzebuję</a>
+      </article>
     </div>
   </section>
 
-  <section id="przyklad" data-view="example_view">
-    <h2>Przykład (dane fikcyjne)</h2>
-    <p class="fine">Stacja z jedną linią diagnostyczną, dwóch diagnostów. W ciągu dnia 28 badań: dane pojazdów z dowodów rejestracyjnych, wyniki i usterki wpisane przy stanowisku, dane przekazane do CEPiK. Na koniec dnia zestawienie badań i opłat; rejestr badań aktualny bez przepisywania.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+  <section id="przyklad" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Przykład</h2>
+      <p>Stacja z jedną linią diagnostyczną, dwóch diagnostów. W ciągu dnia 28 badań: dane pojazdów z dowodów rejestracyjnych, wyniki i usterki wpisane przy stanowisku, dane przekazane do CEPiK. Na koniec dnia zestawienie badań i opłat; rejestr badań aktualny bez przepisywania.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#12397a" /><circle cx="960" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="28" font-weight="600" text-anchor="middle" fill="#0a1524">28 badań</text><text x="600" y="230" font-size="28" font-weight="600" text-anchor="middle" fill="#0a1524">do CEPiK</text><text x="960" y="230" font-size="28" font-weight="600" text-anchor="middle" fill="#0a1524">rejestr badań</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" font-weight="600" fill="#0a1524">zestawienie badań</text><rect x="170" y="460" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="254" y="460" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="338" y="460" width="64" height="64" rx="12" fill="#12397a" /><rect x="422" y="460" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="506" y="460" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="590" y="460" width="64" height="64" rx="12" fill="#12397a" /><rect x="674" y="460" width="64" height="64" rx="12" fill="#dfe8f7" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Jak działa program dla stacji kontroli pojazdów</h2>
-    <p>Duże sieci stacji kontroli pojazdów mają własne programy. Stacja niezależna — z jedną lub dwiema liniami, prowadzona przez właściciela — musi kupić program, który obsłuży badania techniczne, rejestr badań i przekazywanie danych do CEPiK. SKP Online to program dla takiej stacji, w abonamencie.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Jak działa program dla stacji kontroli pojazdów</h2></div>
+    <div class="stack">
+      <p>Duże sieci stacji kontroli pojazdów mają własne programy. Stacja niezależna — z jedną lub dwiema liniami, prowadzona przez właściciela — musi kupić program, który obsłuży badania techniczne, rejestr badań i przekazywanie danych do CEPiK. SKP Online to program dla takiej stacji, w abonamencie.</p>
     <p>Od programu dla stacji kontroli pojazdów oczekuje się trzech rzeczy: żeby badanie wprowadzało się szybko przy stanowisku, żeby rejestr badań był kompletny na wypadek kontroli i żeby dane badania trafiały do CEPiK bez przepisywania. Odpowiedzi na pytania, które stacje zadają najczęściej, są w <a href="#faq" data-ev="click_opis_faq">pytaniach i odpowiedziach</a>, a swoją stację dodasz <a href="#start" data-ev="click_opis_start">na dole strony</a>.</p>
     <p>Badanie zaczyna się od pojazdu. Diagnosta wprowadza numer rejestracyjny lub VIN, a program uzupełnia dane pojazdu, jeśli był już badany na stacji. Przy nowym pojeździe dane wpisuje się z dowodu rejestracyjnego. Rodzaj badania wybiera się z listy, a program podpowiada, co trzeba wpisać.</p>
     <p>Wynik badania i stwierdzone usterki diagnosta wprowadza przy stanowisku, na komputerze lub tablecie. Program przygotowuje dokumenty, które stacja wydaje po badaniu, i zapisuje badanie w rejestrze.</p>
@@ -125,33 +159,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Gdy diagnosta odkryje usterkę, program pokazuje listę usterek do wyboru, z możliwością dopisania opisu. Przy badaniu ponownym po usunięciu usterek program przywołuje poprzednie badanie, więc diagnosta widzi od razu, co trzeba sprawdzić. Stacja nie musi szukać papierowej karty z poprzedniej wizyty klienta, a klient dostaje dokumenty szybciej.</p>
     <p>Przejście z dotychczasowego programu jest proste: rejestr wcześniejszych badań można zaimportować z pliku, aby historia pojazdów była dostępna od pierwszego dnia. Jeśli stacja nie ma pliku, historia buduje się od pierwszego badania w nowym programie, a stare dane zostają w dotychczasowym archiwum. Wsparcie przy uruchomieniu prowadzimy telefonicznie i mailowo, po polsku. Kolejnych diagnostów dodajesz w dowolnym momencie, a każdy z nich dostaje własny login i hasło, bez dodatkowej opłaty za stanowisko. Uprawnienia każdego konta ustawia właściciel stacji.</p>
     <p>SKP Online nie jest częścią CEPiK ani organem administracji. Za wyniki badań i prawidłowość dokumentów odpowiadają diagności i stacja.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pytania i odpowiedzi</h2>
-    <h3>Co powinien robić program dla stacji kontroli pojazdów?</h3>
-    <p>Obsługiwać badanie techniczne przy stanowisku, przygotowywać dokumenty po badaniu, prowadzić rejestr badań stacji i przekazywać dane badań do CEPiK. SKP Online robi to w jednym programie.</p>
-    <h3>Czy program dla SKP przekazuje dane do CEPiK?</h3>
-    <p>Tak, dane badania są przekazywane z programu, a status przekazania widać przy każdym badaniu.</p>
-    <h3>Czy program prowadzi rejestr badań technicznych?</h3>
-    <p>Tak. Rejestr obejmuje wszystkie badania stacji, z wyszukiwaniem po numerze rejestracyjnym, VIN, dacie i diagnoście.</p>
-    <h3>Czy program działa na kilku stanowiskach i dla kilku diagnostów?</h3>
-    <p>Tak. Każdy diagnosta ma własne konto, a program zapisuje, kto wykonał badanie i kto wprowadzał zmiany.</p>
-    <h3>Czy trzeba coś instalować?</h3>
-    <p>Nie, program działa w przeglądarce.</p>
-    <h3>Czy mogę już korzystać?</h3>
-    <p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy stacje jej potrzebują.</p>
+    <div class="stack"><h2>Pytania i odpowiedzi</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Co powinien robić program dla stacji kontroli pojazdów?</h3><p>Obsługiwać badanie techniczne przy stanowisku, przygotowywać dokumenty po badaniu, prowadzić rejestr badań stacji i przekazywać dane badań do CEPiK. SKP Online robi to w jednym programie.</p></div>
+      <div class="split flip"><h3>Czy program dla SKP przekazuje dane do CEPiK?</h3><p>Tak, dane badania są przekazywane z programu, a status przekazania widać przy każdym badaniu.</p></div>
+      <div class="split flip"><h3>Czy program prowadzi rejestr badań technicznych?</h3><p>Tak. Rejestr obejmuje wszystkie badania stacji, z wyszukiwaniem po numerze rejestracyjnym, VIN, dacie i diagnoście.</p></div>
+      <div class="split flip"><h3>Czy program działa na kilku stanowiskach i dla kilku diagnostów?</h3><p>Tak. Każdy diagnosta ma własne konto, a program zapisuje, kto wykonał badanie i kto wprowadzał zmiany.</p></div>
+      <div class="split flip"><h3>Czy trzeba coś instalować?</h3><p>Nie, program działa w przeglądarce.</p></div>
+      <div class="split flip"><h3>Czy mogę już korzystać?</h3><p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy stacje jej potrzebują.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Dodaj swoją stację</h2>
-    <p><label>Rodzaj stacji<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— wybierz —</option><option>Podstawowa</option><option>Okręgowa</option><option>Kilka stacji</option><option>Inna</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Dodaj stację</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Dodaj swoją stację</h2>
+    </div>
+    <div class="tile stack">
+      <label>Rodzaj stacji<select data-ev-focus="form_start"><option value="">— wybierz —</option><option>Podstawowa</option><option>Okręgowa</option><option>Kilka stacji</option><option>Inna</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Dodaj stację</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>SKP Online</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Polityka prywatności</a></p>
-  <p class="muted">SKP Online nie jest częścią CEPiK ani organem administracji. Za wyniki badań odpowiadają diagności i stacja.</p>
+  <p>SKP Online nie jest częścią CEPiK ani organem administracji. Za wyniki badań odpowiadają diagności i stacja.</p>
 </div></footer>
 
 </body>
